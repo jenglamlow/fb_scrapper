@@ -1,0 +1,23 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -- ./src/index.ts 111111111111111" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.6.0",
+    "@types/puppeteer": "^1.2.0"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "fastpriorityqueue": "^0.3.1",
+    "json2csv": "^4.0.2",
+    "puppeteer": "^1.2.0"
+  }
+}
